@@ -2,13 +2,13 @@
 setlocal enabledelayedexpansion
 
 rem Path to exe
-set EXE=bin\x64\Debug\8086_test.exe
+set EXE=%~1
 
 rem Path to JSON tests
-set TEST=C:\Users\TJA\Downloads\8088\v1_extracted\
+set TEST=%~2
 
 rem Starting file (if provided as argument)
-set STARTFILE=%~1
+set STARTFILE=%~3
 set STARTED=0
 
 if not "!STARTFILE!"=="" (
