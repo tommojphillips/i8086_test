@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-rem Path to your executable
-set EXE=x64\Debug\8086_test.exe
+rem Path to exe
+set EXE=bin\x64\Debug\8086_test.exe
 
 rem Path to JSON tests
 set TEST=C:\Users\TJA\Downloads\8088\v1_extracted\

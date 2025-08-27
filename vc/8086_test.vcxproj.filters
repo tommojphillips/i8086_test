@@ -21,46 +21,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="..\src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON.c">
+    <ClCompile Include="..\lib\i8086\src\sign_extend.c">
+      <Filter>i8086</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\i8086\src\i8086_alu.c">
+      <Filter>i8086</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\i8086\src\i8086.c">
+      <Filter>i8086</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\cJSON\cJSON_Utils.c">
       <Filter>CJSON</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON_Utils.c">
+    <ClCompile Include="..\lib\cJSON\cJSON.c">
       <Filter>CJSON</Filter>
     </ClCompile>
-    <ClCompile Include="..\I8086\src\i8086 _mnem.c">
-      <Filter>i8086</Filter>
-    </ClCompile>
-    <ClCompile Include="..\I8086\src\i8086.c">
-      <Filter>i8086</Filter>
-    </ClCompile>
-    <ClCompile Include="..\I8086\src\i8086_alu.c">
-      <Filter>i8086</Filter>
-    </ClCompile>
-    <ClCompile Include="..\I8086\src\sign_extend.c">
+    <ClCompile Include="..\lib\i8086\src\i8086 _mnem.c">
       <Filter>i8086</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON.h">
-      <Filter>CJSON</Filter>
+    <ClInclude Include="..\lib\i8086\src\i8086.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON_Utils.h">
-      <Filter>CJSON</Filter>
+    <ClInclude Include="..\lib\i8086\src\i8086_alu.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\I8086\src\i8086.h">
-      <Filter>i8086</Filter>
+    <ClInclude Include="..\lib\i8086\src\i8086_mnem.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\I8086\src\i8086_alu.h">
-      <Filter>i8086</Filter>
+    <ClInclude Include="..\lib\i8086\src\sign_extend.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\I8086\src\i8086_mnem.h">
-      <Filter>i8086</Filter>
+    <ClInclude Include="..\lib\cJSON\cJSON.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\I8086\src\sign_extend.h">
-      <Filter>i8086</Filter>
+    <ClInclude Include="..\lib\cJSON\cJSON_Utils.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

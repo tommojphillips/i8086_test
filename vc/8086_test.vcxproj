@@ -136,21 +136,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\I8086\src\i8086 _mnem.c" />
-    <ClCompile Include="..\I8086\src\i8086.c" />
-    <ClCompile Include="..\I8086\src\i8086_alu.c" />
-    <ClCompile Include="..\I8086\src\sign_extend.c" />
-    <ClCompile Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON.c" />
-    <ClCompile Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON_Utils.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="..\lib\i8086\src\i8086.c" />
+    <ClCompile Include="..\lib\i8086\src\i8086_alu.c" />
+    <ClCompile Include="..\lib\i8086\src\i8086 _mnem.c" />
+    <ClCompile Include="..\lib\i8086\src\sign_extend.c" />
+    <ClCompile Include="..\lib\cJSON\cJSON.c" />
+    <ClCompile Include="..\lib\cJSON\cJSON_Utils.c" />
+    <ClCompile Include="..\src\main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\I8086\src\i8086.h" />
-    <ClInclude Include="..\I8086\src\i8086_alu.h" />
-    <ClInclude Include="..\I8086\src\i8086_mnem.h" />
-    <ClInclude Include="..\I8086\src\sign_extend.h" />
-    <ClInclude Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON.h" />
-    <ClInclude Include="C:\Users\TJA\Downloads\cJSON-1.7.18\cJSON_Utils.h" />
+    <ClInclude Include="..\lib\i8086\src\i8086.h" />
+    <ClInclude Include="..\lib\i8086\src\i8086_alu.h" />
+    <ClInclude Include="..\lib\i8086\src\i8086_mnem.h" />
+    <ClInclude Include="..\lib\i8086\src\sign_extend.h" />
+    <ClInclude Include="..\lib\cJSON\cJSON.h" />
+    <ClInclude Include="..\lib\cJSON\cJSON_Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
