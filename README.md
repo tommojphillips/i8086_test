@@ -21,7 +21,7 @@ The project is built in Visual Studio 2022
 
  2. Open `i8086_test\vc\8086_test.sln`, build.
 
- 3. Clone 8088 JSON tests from https://github.com/SingleStepTests/8088
+ 3. Clone 8088 JSON tests from SingleStepTests/ProccessorTests
   
   ```
   git clone https://github.com/SingleStepTests/ProcessorTests.git
