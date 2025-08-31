@@ -6,14 +6,14 @@ A test program that tests my i8086 CPU Core using the hardware generated tests f
 
 The project is built in Visual Studio 2022
 
-| Dependencies   |                                         |
-| -------------- | --------------------------------------- |
+ | Dependencies   |                                        |
+ | -------------- | -------------------------------------- |
  | I8086         | https://github.com/tommojphillips/i8086 |
  | cJSON         | https://github.com/DaveGamble/cJSON     |
 
 ---
 
-1. Clone the repo and submodules
+ 1. Clone the repo and submodules
   
   ```
   git clone --recurse-submodules https://github.com/tommojphillips/i8086_test.git

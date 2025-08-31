@@ -354,16 +354,19 @@ int main(int argc, char* argv[]) {
             write_mm_byte((uint20_t)(cpu.segments[SEG_CS] << 4) + (cpu.ip + b), v);
         }
 
-        // Execute instruction(s)
-        if (i8086_execute(&cpu) == I8086_DECODE_UNDEFINED) {
-            printf("ERROR: undef op: %02X", cpu.opcode);
-            if (cpu.modrm.byte != 0) {
-                printf(" /%02X", cpu.modrm.reg);
+        uint16_t start_ip = cpu.ip;
+        do {
+            // Execute instruction(s)
+            if (i8086_execute(&cpu) == I8086_DECODE_UNDEFINED) {
+                printf("ERROR: undef op: %02X", cpu.opcode);
+                if (cpu.modrm.byte != 0) {
+                    printf(" /%02X", cpu.modrm.reg);
+                }
+                printf("\n");
+                failed = 1;
+                goto cleanup;
             }
-            printf("\n");
-            failed = 1;
-            goto cleanup;
-        }
+        } while (cpu.ip == start_ip); // stay in loop until REP finally finishes
 
         // Compare final state
         cJSON* final = cJSON_GetObjectItem(child, "final");
