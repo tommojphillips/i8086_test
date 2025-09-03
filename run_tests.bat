@@ -31,10 +31,11 @@ for %%F in (%TEST%*.json) do (
     )
 
     if !STARTED! == 1 (
-        echo Running %%F...
+        echo Running  %%~nxF...
         %EXE% "%%F"
         set "ERR=!ERRORLEVEL!"
         if not "!ERR!"=="0" (
+            echo.
             echo ERROR: Test %%~nxF failed
             exit /b !ERR!
         )

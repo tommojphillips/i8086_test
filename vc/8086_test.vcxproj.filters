@@ -5,14 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="CJSON">
       <UniqueIdentifier>{36ab8a09-0e73-4d44-ad7c-f2b2b8c3d1ee}</UniqueIdentifier>
     </Filter>
@@ -33,34 +25,34 @@
     <ClCompile Include="..\lib\i8086\src\i8086.c">
       <Filter>i8086</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\cJSON\cJSON_Utils.c">
-      <Filter>CJSON</Filter>
+    <ClCompile Include="..\lib\i8086\src\i8086 _mnem.c">
+      <Filter>i8086</Filter>
     </ClCompile>
     <ClCompile Include="..\lib\cJSON\cJSON.c">
       <Filter>CJSON</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\i8086\src\i8086 _mnem.c">
-      <Filter>i8086</Filter>
+    <ClCompile Include="..\lib\cJSON\cJSON_Utils.c">
+      <Filter>CJSON</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\lib\i8086\src\i8086.h">
-      <Filter>Header Files</Filter>
+      <Filter>i8086</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\i8086\src\i8086_alu.h">
-      <Filter>Header Files</Filter>
+      <Filter>i8086</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\i8086\src\i8086_mnem.h">
-      <Filter>Header Files</Filter>
+      <Filter>i8086</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\i8086\src\sign_extend.h">
-      <Filter>Header Files</Filter>
+      <Filter>i8086</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\cJSON\cJSON.h">
-      <Filter>Header Files</Filter>
+      <Filter>CJSON</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\cJSON\cJSON_Utils.h">
-      <Filter>Header Files</Filter>
+      <Filter>CJSON</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
