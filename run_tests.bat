@@ -32,7 +32,7 @@ for %%F in (%TEST%*.json) do (
 
     if !STARTED! == 1 (
         echo Running  %%~nxF...
-        %EXE% "%%F"
+        %EXE% "%%F" %~4 %~5 %~6 %~7 %~8
         set "ERR=!ERRORLEVEL!"
         if not "!ERR!"=="0" (
             echo.
